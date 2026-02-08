@@ -46,11 +46,11 @@ GET /v1/users/{userId}/accounts
 - Returns all investment accounts associated with a specific user.
 
 ### **Account Stocks**
-- POST /v1/accounts/{accountId}/stocks
-Associates a stock with an investment account, storing the quantity owned for that stock.
+POST /v1/accounts/{accountId}/stocks
+- Associates a stock with an investment account, storing the quantity owned for that stock.
 
-- GET /v1/accounts/{accountId}/stocks
-Returns all stocks associated with a specific account, including calculated investment values.
+GET /v1/accounts/{accountId}/stocks
+- Returns all stocks associated with a specific account, including calculated investment values.
 
 ### **Stocks**
 POST /v1/stocks
