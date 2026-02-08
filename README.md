@@ -10,7 +10,7 @@ The project follows good architectural practices, separation of responsibilities
 
 - **Java**
 - **Spring Boot**
-- **Spring Web **
+- **Spring Web**
 - **Spring Data JPA**
 - **Spring Cloud OpenFeign**
 - **Hibernate**
