@@ -8,9 +8,9 @@ The project follows good architectural practices, separation of responsibilities
 
 ## Technologies Used
 
-- **Java 21**
-- **Spring Boot 4.2**
-- **Spring Web (MVC)**
+- **Java**
+- **Spring Boot**
+- **Spring Web **
 - **Spring Data JPA**
 - **Spring Cloud OpenFeign**
 - **Hibernate**
