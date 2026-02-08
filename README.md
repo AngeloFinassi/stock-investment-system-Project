@@ -60,11 +60,12 @@ POST /v1/stocks
 ---
 
 ## **Architecture**
-Controller: handles HTTP requests and responses
-Service: contains business logic
-Repository: handles persistence
-DTOs: define input and output contracts
-Entity: represents database model
+
+- Controller: handles HTTP requests and responses
+- Service: contains business logic
+- Repository: handles persistence
+- DTOs: define input and output contracts
+- Entity: represents database model
 ---
 
 ## Data Modeling
