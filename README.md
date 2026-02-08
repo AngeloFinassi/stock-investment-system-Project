@@ -89,9 +89,8 @@ POST /v1/stocks
 The external API is consumed via **Feign Client** to fetch the current stock price.
 
 ### Usage example:
-- The total invested value in a stock is calculated dynamically:
-
-total = quantity × current_price
+The total invested value in a stock is calculated dynamically:
+- total = quantity × current_price
 
 The API token is configured via an **environment variable**, ensuring security.
 
