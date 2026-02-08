@@ -22,7 +22,7 @@ The project follows good architectural practices, separation of responsibilities
 ---
 
 ## API Routes
-# **Users**
+### **Users**
 POST /v1/users
 - Creates a new user in the system.
 
@@ -38,19 +38,24 @@ PUT /v1/users/{userId}
 DELETE /v1/users/{userId}
 - Deletes a user by its identifier.
 
-# **Accounts**
+### **Accounts**
 POST /v1/users/{userId}/accounts
 - Creates a new investment account associated with a specific user.
 
 GET /v1/users/{userId}/accounts
 - Returns all investment accounts associated with a specific user.
 
-# **Account Stocks**
+### **Account Stocks**
 - POST /v1/accounts/{accountId}/stocks
 Associates a stock with an investment account, storing the quantity owned for that stock.
 
 - GET /v1/accounts/{accountId}/stocks
 Returns all stocks associated with a specific account, including calculated investment values.
+
+### **Stocks**
+POST /v1/stocks
+- Creates a new stock available to be associated with investment accounts.
+
 
 ---
 
@@ -92,10 +97,6 @@ The API token is configured via an **environment variable**, ensuring security.
 ```env
 BRAPI_TOKEN=your_token_here
 ```
-
-**Stocks**
-POST /v1/stocks
-- Creates a new stock available to be associated with investment accounts.
 
 **Tests**
 - Unit tests using JUnit 5
