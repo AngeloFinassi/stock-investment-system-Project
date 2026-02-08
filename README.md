@@ -59,12 +59,12 @@ POST /v1/stocks
 
 ---
 
-## Architecture
-
-The project uses a layered architecture:
-
-controller → service → repository → database
-
+## **Architecture**
+Controller: handles HTTP requests and responses
+Service: contains business logic
+Repository: handles persistence
+DTOs: define input and output contracts
+Entity: represents database model
 ---
 
 ## Data Modeling
